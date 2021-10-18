@@ -1,0 +1,13 @@
+.float {
+    margin: 10px;
+    float: right;
+    height: 150px;
+  }
+  
+  .clear {
+    clear: right;
+  }
+  
+  div {
+    border: 1px solid black;
+  }

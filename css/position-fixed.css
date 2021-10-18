@@ -1,0 +1,10 @@
+.fixed-position {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    
+    background: hotpink;
+    width: 200px;
+    height: 50px;
+
+  }

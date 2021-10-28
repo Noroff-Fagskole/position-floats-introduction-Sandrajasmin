@@ -3,11 +3,14 @@
     float: right;
     height: 150px;
   }
-  
-  .clear {
-    clear: right;
-  }
+
   
   div {
     border: 1px solid black;
   }
+
+.clearfix::after {
+  clear: both; /* right . left . both */
+  content: " "; /* insert content into html file*/
+  display: table; /* set display type*/
+}
